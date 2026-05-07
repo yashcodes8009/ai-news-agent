@@ -50,7 +50,7 @@ def send_news():
 
     <div style="max-width: 700px; margin: auto; background: white; padding: 25px; border-radius: 12px;">
 
-    <h1 style="color:#111;">🚀 Daily AI Brief</h1>
+    <h1 style="color:#111;">Daily AI Brief</h1>
     <p style="color:gray;">Top AI news summarized for you</p>
 
     <hr>
