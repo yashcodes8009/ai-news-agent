@@ -2,14 +2,17 @@ import feedparser
 import smtplib
 from groq import Groq
 from email.mime.text import MIMEText
-
 import os
+
+# CONFIG
+FEED_URL = "https://news.google.com/rss/search?q=artificial+intelligence"
+
 
 SENDER = os.getenv("EMAIL_SENDER")
 RECEIVER = os.getenv("EMAIL_RECEIVER")
 PASSWORD = os.getenv("EMAIL_PASSWORD")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-# CONFIG
+
 
 
 
